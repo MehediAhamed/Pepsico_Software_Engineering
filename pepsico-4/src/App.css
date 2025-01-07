@@ -1,0 +1,33 @@
+h1 {
+    font-family: 'Courier New', Courier, Monospace, serif;;
+    font-size: 7vh;
+    font-weight: bold;
+    color: #fbfbfb;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+}
+
+
+
+
+html, body, #root, .App {
+    height: 100vh;
+    background-image: url('./assets/pepsi001.png');  
+    background-repeat: no-repeat;
+    background-position: right center;  /* Aligns the image to the right side and vertically centered */
+    background-size: contain;  
+    margin: 0;
+
+
+}
+
+
+
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(33deg, rgb(5, 4, 48) 0%, rgb(9, 103, 254) 100%);
+}
